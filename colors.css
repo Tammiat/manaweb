@@ -1,17 +1,8 @@
-html{
-    scroll-behavior: smooth;
-}
 
 *{
     margin: 0;
     padding: 0;
 }
-button {
-    border: none;
-    background-color: white;
-    cursor: pointer;
-}
-    
 
 nav {
     border: 1px dotted;
@@ -27,40 +18,21 @@ nav {
         li {
             a {
                 text-decoration: none;
-                color: black;
+                color: white;
             }
         }
     }
 }
 
-section {
-    height: 100vh;
+#purples, #green, #browns {
     display: flex;
+    height: 100vh;
     div {
-        width: 50%;
+        width: 100%;
         display: flex;
-        align-items: center;
         justify-content: center;
+        align-items: end;
     }
-}
-
-#section1 {
-    align-items: center;
-    justify-content: center;
-
-}
-
-#section2{
-    a {
-        text-decoration: none;
-        color: black;
-    }
-}
-
-#section3 {
-    height: 90vh;
-    align-items: center;
-    justify-content: center;
 }
 
 footer {
