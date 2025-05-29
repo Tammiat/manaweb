@@ -45,6 +45,7 @@ section {
 }
 
 #section1 {
+    background: url(logo_mauve1.svg) center no-repeat fixed;
     align-items: center;
     justify-content: center;
 
